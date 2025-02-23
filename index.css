@@ -1,0 +1,71 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #1a0dab; /* Google link color */
+}
+
+/* Upper-right links container */
+.links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Search form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form items */
+    margin-top: 100px; /* Space from the top */
+}
+
+/* Search input field styles */
+input[type="text"] {
+    width: 400px; /* Width of the search bar */
+    padding: 10px; /* Padding for the input */
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    font-size: 16px; /* Font size for the input text */
+}
+
+/* Search button styles */
+input[type="submit"] {
+    margin-top: 10px; /* Space between input and button */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 20px; /* Rounded corners for button */
+    border: none; /* No border */
+    background-color: #4285f4; /* Google blue color */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+}
+
+/* "I'm Feeling Lucky" button styles */
+.lucky-button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 20px; /* Rounded corners for button */
+    border: none; /* No border */
+    background-color: #fbbc05; /* Google yellow color */
+    color: black; /* Black text color */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Lucky button hover effect */
+.lucky-button:hover {
+    background-color: #f9c200; /* Darker yellow on hover */
+}
